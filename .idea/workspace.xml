@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'Curses'" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfb0200b-e746-4421-87ae-035732022fb5" name="Default Changelist" comment="" />
+    <list default="true" id="dfb0200b-e746-4421-87ae-035732022fb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Curses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Curses.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Bicicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Bicicleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/ConfigGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/ConfigGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Cotxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Cotxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curses/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Curses/src/main/java/Vehicle.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +26,19 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="20N4MgQPyCBOcH0AEQI8zIZQlkz" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,5 +64,16 @@
       <updated>1635871664948</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

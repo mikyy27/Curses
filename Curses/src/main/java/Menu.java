@@ -1,3 +1,9 @@
+
+/**
+ * @author Michal Sobczuk
+ * @version v0.2
+ * Classe Menu, s'encarrega del menu
+ */
 import java.util.Scanner;
 
 public class Menu {
@@ -6,12 +12,20 @@ public class Menu {
     ConfigGame configGame;
     Game game;
 
+    /**
+     * 
+     * @param game
+     * @param config
+     */
     public Menu(Game game, ConfigGame config) {
         opcio = -1;
         this.game = game;
         configGame = config;
     }
 
+    /**
+     * Mostra el menú
+     */
     public void menuPrincipal() {
         do {
             System.out.println("1. Configuració : " + configGame);
@@ -22,33 +36,36 @@ public class Menu {
             opcio = in.nextInt();
             in.nextLine();
             switch (opcio) {
-                case 1:
-                    setConfig();
-                    break;
-                case 2:
-                    play();
-                    break;
-                case 3:
-                    System.out.println("Classificació...");
-                    game.finalResults();
-                    break;
-                case 0:
-                    System.out.println("Gràcies per jugar. Fins la propera!");
-                    break;
-                default:
-                    System.out.println("ATENCIÓ!!! \nHa de ser un valor entre 0 i 3");
+            case 1:
+                setConfig();
+                break;
+            case 2:
+                play();
+                break;
+            case 3:
+                System.out.println("Classificació...");
+                game.finalResults();
+                break;
+            case 0:
+                System.out.println("Gràcies per jugar. Fins la propera!");
+                break;
+            default:
+                System.out.println("ATENCIÓ!!! \nHa de ser un valor entre 0 i 3");
 
             }
-        }while(opcio != 0);
+        } while (opcio != 0);
     }
 
+    /**
+     * Ajusta la configuració llegint per teclat
+     */
     public void setConfig() {
         System.out.println("Entra el teu nom: ");
         String n = in.nextLine();
         configGame.setUsername(n);
         System.out.println("Quants participants hi haurà al campionat? ");
         configGame.setNumRunners(in.nextInt());
-        in.nextLine(); //per esborrar el salt de línia
+        in.nextLine(); // per esborrar el salt de línia
         System.out.println("Quants circuits tindrà el campionat?");
         configGame.setNumTracks(in.nextInt());
         in.nextLine();
